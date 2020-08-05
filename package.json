@@ -1,0 +1,37 @@
+{
+  "name": "vue-cloudinary-media-library-plugin",
+  "version": "0.0.1",
+  "description": "Vue plugin adding Cloudinary media library to Vue instance.",
+  "main": "./dist/index.js",
+  "module": "/dist/index.esm.js",
+  "unpkg": "/dist/index.umd.js",
+  "jsdelivr": "/dist/index.umd.js",
+  "scripts": {
+    "build": "bili",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBS-Lab/vue-cloudinary-media-library-plugin.git"
+  },
+  "keywords": [
+    "Vue",
+    "Cloudinary",
+    "Media",
+    "Library"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BBS-Lab/vue-cloudinary-media-library-plugin/issues"
+  },
+  "homepage": "https://github.com/BBS-Lab/vue-cloudinary-media-library-plugin#readme",
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "bili": "^5.0.5",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
